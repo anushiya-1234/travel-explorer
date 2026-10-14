@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🌍 Travel Explorer</h1>
+        <p>Explore Dreams • Discover New Places • Create Memories</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#packages">Packages</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+
+    <section id="home" class="hero">
+        <h2>Welcome to Travel Explorer</h2>
+
+        <p>
+            Discover beautiful destinations and plan your perfect trip
+            with Travel Explorer.
+        </p>
+
+        <img src="image.png" alt="Beautiful Travel Destination">
+
+        <br>
+
+        <a class="button" href="#booking">Book Your Trip</a>
+    </section>
+
+
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+
+        <div class="places">
+
+            <div class="place">
+                <img src="ooty.jpg" alt="Ooty">
+                <h3>Ooty</h3>
+                <p>
+                    Enjoy beautiful hills, lakes and pleasant climate.
+                </p>
+
+                <a href="https://www.google.com/maps/search/Ooty"
+                   target="_blank">
+                    View Location
+                </a>
+            </div>
+
+
+            <div class="place">
+                <img src="top-station-munnar-kerala-1-attr munnar.jpg" alt="Munnar">
+                <h3>Munnar</h3>
+                <p>
+                    Explore tea gardens, waterfalls and mountains.
+                </p>
+
+                <a href="https://www.google.com/maps/search/Munnar"
+                   target="_blank">
+                    View Location
+                </a>
+            </div>
+
+
+            <div class="place">
+                <img src="kerala.jpg" alt="Kerala">
+                <h3>Kerala</h3>
+                <p>
+                    Experience beautiful backwaters, beaches and nature.
+                </p>
+
+                <a href="https://www.google.com/maps/search/Kerala"
+                   target="_blank">
+                    View Location
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="activities">
+        <h2>Things to Do</h2>
+
+        <ul>
+            <li>Visit beautiful tourist places</li>
+            <li>Enjoy local food</li>
+            <li>Take photographs</li>
+            <li>Explore nature</li>
+            <li>Enjoy adventure activities</li>
+        </ul>
+    </section>
+
+
+
+    <section id="packages">
+        <h2>Tour Packages</h2>
+
+        <table>
+            <tr>
+                <th>Destination</th>
+                <th>Duration</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>Ooty</td>
+                <td>3 Days</td>
+                <td>₹5,000</td>
+            </tr>
+
+            <tr>
+                <td>Munnar</td>
+                <td>4 Days</td>
+                <td>₹7,000</td>
+            </tr>
+
+            <tr>
+                <td>Kerala</td>
+                <td>5 Days</td>
+                <td>₹9,000</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section id="booking">
+        <h2>Book Your Trip</h2>
+
+        <form>
+
+            <label>Full Name:</label>
+            <input type="text"
+                   placeholder="Enter your name"
+                   required>
+
+
+            <label>Email:</label>
+            <input type="email"
+                   placeholder="Enter your email"
+                   required>
+
+
+            <label>Phone Number:</label>
+            <input type="tel"
+                   placeholder="Enter your phone number"
+                   required>
+
+
+            <label>Select Destination:</label>
+
+            <select>
+                <option>Ooty</option>
+                <option>Munnar</option>
+                <option>Kerala</option>
+            </select>
+
+
+            <label>Number of Travellers:</label>
+
+            <input type="number"
+                   min="1"
+                   placeholder="Enter number">
+
+
+            <label>Travel Date:</label>
+
+            <input type="date">
+
+
+            <label>Mode of Transport:</label>
+
+            <div class="radio">
+                <input type="radio" name="transport">
+                Flight
+
+                <input type="radio" name="transport">
+                Train
+
+                <input type="radio" name="transport">
+                Bus
+            </div>
+
+
+            <label>Message:</label>
+
+            <textarea
+                placeholder="Enter your message"></textarea>
+
+
+            <input type="submit"
+                   value="Book Now">
+
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p>Email: travelexplorer@gmail.com</p>
+        <p>Phone: +91 7397685706</p>
+
+        <a href="mailto:travelexplorer@gmail.com">
+            Send us an Email
+        </a>
+    </section>
+
+
+    <footer>
+        <p>
+            © 2026 Travel Explorer | All Rights Reserved
+        </p>
+    </footer>
+
+</body>
+</html>
